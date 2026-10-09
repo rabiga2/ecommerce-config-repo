@@ -17,3 +17,9 @@ spring:
     console:
       enabled: true
       path: /h2-console
+
+# PRODUCT-SERVICE endpoint
+microservice:
+  product-service:
+    endpoints:
+      get-product-uri: http://localhost:9195/ecom/products/productId
