@@ -1,23 +1,24 @@
 # 1. Run ORDER-SERVICE on port 9192
 server:
   port: 9192
-
+# 2. Spring 
 spring:
 
-  # 2. Configure the ORDER-SERVICE H2 database
+  # 2.1. Configure the ORDER-SERVICE H2 database
   datasource:
     url: jdbc:h2:mem:orderdb
     driver-class-name: org.h2.Driver
     username: sa
     password:
 
-  # 3. Configure Hibernate and show generated SQL in the console
+  # 2.2. Configure Hibernate and show generated SQL in the console
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
 
-  # 4. Enable the H2 browser console
+  # 2.3. Enable the H2 browser console
   h2:
     console:
       enabled: true
+    
