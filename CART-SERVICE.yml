@@ -22,4 +22,4 @@ spring:
 microservice:
   product-service:
     endpoints:
-      get-product-uri: http://localhost:9195/ecom/products/productId
+      get-product-uri: http://PRODUCT-SERVICE/ecom/products/productId
