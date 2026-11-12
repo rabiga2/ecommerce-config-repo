@@ -18,8 +18,15 @@ spring:
       enabled: true
       path: /h2-console
 
-# PRODUCT-SERVICE endpoint
+
+# Routs 
 microservice:
+  # PRODUCT-SERVICE endpoint
   product-service:
     endpoints:
       get-product-uri: http://PRODUCT-SERVICE/ecom/products/productId
+
+  # USER-SERVICE endpoint
+  user-service:
+    endpoints:
+      get-current-user-uri: http://USER-SERVICE/user/me
