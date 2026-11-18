@@ -21,4 +21,9 @@ spring:
   h2:
     console:
       enabled: true
-    
+
+# outside spring: 
+# 3. Configure the trusted CART-SERVICE URL
+cart:
+  service:
+    url: http://localhost:9194/ecom/cart/me
