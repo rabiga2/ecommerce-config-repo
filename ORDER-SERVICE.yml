@@ -23,7 +23,7 @@ spring:
       enabled: true
 
 # outside spring: 
-# 3. Configure the trusted CART-SERVICE URL
+# 3. Configure the trusted CART-SERVICE URL using Eureka Service Discovery
 cart:
-  service:
-    url: http://localhost:9194/ecom/cart/me
+service:
+url: http://CART-SERVICE/ecom/cart/me
