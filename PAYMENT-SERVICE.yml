@@ -25,7 +25,6 @@ spring:
       path: /h2-console
 
 # 3. ORDER-SERVICE base URL for all endpoints 
-# 3. Configure the trusted ORDER-SERVICE URL using Eureka Service Discovery
 order:
   service:
     url: http://ORDER-SERVICE/order
