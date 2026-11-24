@@ -27,3 +27,7 @@ spring:
 cart:
   service:
     url: http://CART-SERVICE/ecom/cart/me
+
+product:
+  service:
+    url: http://PRODUCT-SERVICE/ecom/products/productId
