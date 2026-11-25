@@ -27,4 +27,4 @@ spring:
 # 3. ORDER-SERVICE base URL for all endpoints 
 order:
   service:
-    url: http://ORDER-SERVICE/order
+    url: http://ORDER-SERVICE/order/orders
